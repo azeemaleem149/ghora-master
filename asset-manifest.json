@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ghora-master/static/css/main.b63c5ebf.chunk.css",
+    "main.js": "/ghora-master/static/js/main.d612d0ff.chunk.js",
+    "main.js.map": "/ghora-master/static/js/main.d612d0ff.chunk.js.map",
+    "runtime-main.js": "/ghora-master/static/js/runtime-main.9e24a1f2.js",
+    "runtime-main.js.map": "/ghora-master/static/js/runtime-main.9e24a1f2.js.map",
+    "static/css/2.fc5a9450.chunk.css": "/ghora-master/static/css/2.fc5a9450.chunk.css",
+    "static/js/2.8e38956e.chunk.js": "/ghora-master/static/js/2.8e38956e.chunk.js",
+    "static/js/2.8e38956e.chunk.js.map": "/ghora-master/static/js/2.8e38956e.chunk.js.map",
+    "index.html": "/ghora-master/index.html",
+    "precache-manifest.ab7ca59fdd7dfa8d73a76834ef39a21e.js": "/ghora-master/precache-manifest.ab7ca59fdd7dfa8d73a76834ef39a21e.js",
+    "service-worker.js": "/ghora-master/service-worker.js",
+    "static/css/2.fc5a9450.chunk.css.map": "/ghora-master/static/css/2.fc5a9450.chunk.css.map",
+    "static/css/main.b63c5ebf.chunk.css.map": "/ghora-master/static/css/main.b63c5ebf.chunk.css.map",
+    "static/js/2.8e38956e.chunk.js.LICENSE.txt": "/ghora-master/static/js/2.8e38956e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e24a1f2.js",
+    "static/css/2.fc5a9450.chunk.css",
+    "static/js/2.8e38956e.chunk.js",
+    "static/css/main.b63c5ebf.chunk.css",
+    "static/js/main.d612d0ff.chunk.js"
+  ]
+}
