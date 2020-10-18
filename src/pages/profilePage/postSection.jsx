@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Input } from 'antd';
+import {FaEllipsisV} from '../../icons';
+import horse from "../images/horse-running.jpg"
+import './profilePage.scss';
+
 import { LikeOutlined, ShareAltOutlined } from '@ant-design/icons';
+
+const { Search } = Input;
+
 class PostSection extends Component {
 	state = {};
 	render() {
 		return (
 			<div>
 				<Row>
-					<Col span={4} />
-					<Col span={12} style={{ width: '100%', height: 'auto', border: '0.5px solid gray' }}>
+					<Col span={3} />
+					<Col
+						span={12}
+						style={{ width: '100%', height: 'auto', border: '0.5px solid gray', marginBottom: '15px' }}>
 						<Row>
 							<Col span={12} style={{ height: '70px', display: 'inline-flex', alignItems: 'center' }}>
 								<div
@@ -24,26 +33,42 @@ class PostSection extends Component {
 									Azeem Aleem
 								</span>
 							</Col>
-							<Col span={12}>
-								<i className='fas fa-ellipsis-h' />
+							<Col span={12} className='font' >
+								<FaEllipsisV/>
 							</Col>
 						</Row>
 						<Row>
 							<Col span={24} style={{ overflow: 'hidden' }}>
-								<img src='images/horse-running.jpg' width='100%' />
+								<img src={horse} width='100%' />
 								<LikeOutlined style={{ color: '#2295FF', fontSize: '24px', margin: '20px' }} />
 								<ShareAltOutlined style={{ color: '#2295FF', fontSize: '24px' }} />
 								<p style={{ marginLeft: '20px' }}>16 mint ago</p>
 							</Col>
 						</Row>
+						{/* <Row>
+							<Col span={24} style={{ overflow: 'hidden' }}>
+								<hr />
+							</Col>
+						</Row> */}
+						<Row>
+							<Col span={24} style={{ overflow: 'hidden' }}>
+								{/* <Input placeholder='Add a commit' suffix='Post' style={{ paddingLeft: '20px' }} /> */}
+								<Search
+									placeholder='Add a commit'
+									enterButton='Post'
+									size='large'
+									// onSearch={value => console.log(value)}
+								/>
+							</Col>
+						</Row>
 					</Col>
-					{/* <Col span={1} /> */}
+					<Col span={1} />
 					<Col span={8}>
 						<Col span={20}>
 							<h1 style={{ fontSize: '20px', marginLeft: '10px' }}>Suggestion For You </h1>
 							<div className='d-flex justify-content-around align-items-center'>
 								<img
-									src='images/horse-running.jpg'
+									src={horse}
 									style={{ width: '40px', height: '40px', borderRadius: '50%' }}
 								/>
 								<div>
@@ -55,7 +80,7 @@ class PostSection extends Component {
 
 							<div className='d-flex justify-content-around align-items-center'>
 								<img
-									src='images/horse-running.jpg'
+									src={horse}
 									style={{ width: '40px', height: '40px', borderRadius: '50%' }}
 								/>
 								<div>
@@ -67,7 +92,7 @@ class PostSection extends Component {
 
 							<div className='d-flex justify-content-around align-items-center'>
 								<img
-									src='images/horse-running.jpg'
+									src={horse}
 									style={{ width: '40px', height: '40px', borderRadius: '50%' }}
 								/>
 								<div>
@@ -79,7 +104,7 @@ class PostSection extends Component {
 
 							<div className='d-flex justify-content-around align-items-center'>
 								<img
-									src='images/horse-running.jpg'
+									src={horse}
 									style={{ width: '40px', height: '40px', borderRadius: '50%' }}
 								/>
 								<div>
@@ -91,7 +116,7 @@ class PostSection extends Component {
 
 							<div className='d-flex justify-content-around align-items-center'>
 								<img
-									src='images/horse-running.jpg'
+									src={horse}
 									style={{ width: '40px', height: '40px', borderRadius: '50%' }}
 								/>
 								<div>
