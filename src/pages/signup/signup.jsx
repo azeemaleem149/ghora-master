@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Input, Form, Checkbox, Button } from "antd";
-import { EyeInvisibleOutlined, EyeTwoTone } from "@ant-design/icons";
-import { MailOutlined } from "@ant-design/icons";
+// import { EyeInvisibleOutlined, EyeTwoTone } from "@ant-design/icons";
+// import { MailOutlined } from "@ant-design/icons";
 import auth from "../../services/authService";
+import logo from "../images/login/logo.png";
+import ghora from "../images/login/ghora.png";
 import { register } from "../../services/userService";
 
 import "./signup.scss";
@@ -57,8 +59,8 @@ class Signup extends Component {
         <div className="box">
           <div className="row">
             <div className="text-center col-md-5 d-flex flex-column justify-content-center align-items-center">
-              <img src="/images/login/Des_-_2-removebg-preview.png" alt="image" /> <br />
-              <img src="/images/login/bdc612b495221fccdb98b330271f72a2.png" className="mt-2 d-md-block d-none" alt="image" width="300px" />
+              <img src={logo} alt="image" /> <br />
+              <img src={ghora} className="mt-2 d-md-block d-none" alt="image" width="300px" />
             </div>
             <div className="col-md-2 d-md-block d-none text-center">
               <div className="line" />
